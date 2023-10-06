@@ -1,12 +1,26 @@
 export const theme = {
   colors: {
-    primaryColor: "#FF0000", //red
-    secondaryColor: "#008000", //green
-    thirdColor: "#999999", //concrete
+    gray: {
+      "05": "#1c1c1c", //cinza escuro
+      "10": "#383838", // cinza escuro médio
+      "15": "#999999", //concrete
+      "20": "#DDDDDD", //gray
+    },
+    red: {
+      "05": "#FF0000", //red
+      "10": "#d60000",
+    },
     fourthColor: "#87CEFA", //lightblue
-    mediumGray: "#DDDDDD", //gray
     black: "#000", //black
     white: "#FFFFFF", //white
+    green: {
+      "05": "#008000", //green
+      "10": "#01c002", //
+      "15": "#55f701",
+    },
+    orange: {
+      "05": "#ffd6b0",
+    },
   },
   fonts: {
     family: {

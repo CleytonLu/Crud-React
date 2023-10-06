@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { theme } from "../../styles/theme";
 
 export const RegisteredContainer = styled.section`
-  margin-top: 2rem;
   width: 100%;
 `;
 
@@ -21,15 +20,18 @@ export const IdentifierCategory = styled.li`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: ${theme.colors.gray["15"]};
+  padding: 1rem;
 `;
 
 export const IdentifierUsers = styled.li`
   font-size: 1.4rem;
-  color: ${theme.colors.thirdColor};
+  color: ${theme.colors.gray["10"]};
   font-weight: 500;
   list-style: none;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0.5rem;
 `;
